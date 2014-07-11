@@ -1,0 +1,12 @@
+# Files to ignore when uploading cookbooks to the Chef server
+# http://www.getchef.com/blog/2011/04/29/chef-0-10-preview-chefignore/
+#
+# Ignore editor swapfiles
+*~
+*.sw[a-z]
+# Ignore source control directories
+*/.git/*
+*/.svn/*
+*/.hg/*
+*/.bzr/*
+
